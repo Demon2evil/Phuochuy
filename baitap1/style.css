@@ -1,0 +1,36 @@
+.menu{
+    margin: 0px;
+    padding: 0px;
+    background: blueviolet;
+    overflow: hidden
+}
+.menu li{
+    float:left;
+    list-style: none
+}
+.menu a{
+    display: inline-block;
+    padding: 5px 10px;
+    color:#fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #288cc4;
+    background: #fff;
+}
+.menu-down{
+    background: blueviolet;
+    width: 180px;
+    height: 10em;
+    line-height: 3em;
+    margin: 0px auto;
+    position: absolute;
+    top: 73px;
+}
+.menu-down li{
+    text-align: center;
+    padding: 0px;
+}
+.menu-down li a:hover{
+    color: blueviolet;
+}
